@@ -1,0 +1,55 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    tools:context="com.example.MainActivity">
+
+
+    <TableRow android:gravity="center_horizontal">
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal">
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+
+        <com.example.memory.Carta android:onClick="onCartaCliccata" />
+    </TableRow>
+
+</TableLayout>
